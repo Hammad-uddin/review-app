@@ -11,7 +11,6 @@ import AboutIconLink from "./components/AboutIconLink";
 import { FeedbackProvider } from "./context/FeedbackContext";
 
 export const App = () => {
-  const [feedback, setFeedback] = useState(FeedbackData);
 
 
   return (
